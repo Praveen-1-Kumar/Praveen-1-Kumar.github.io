@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+a{
+    color: rgb(97, 60, 18);
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(88, 213, 218);
+   width: 100%;
+
+}
+.left ul{
+display: flex;
+
+}
+.left ul li{
+list-style: none;
+margin: 0.5em 0.5em;
+justify-content: center;
+}
+#search{
+margin-left: 17em;
+padding: 1px 15px;
+font-size: medium;
+border-radius: 5px;
+
+}
+.btn{
+   
+width: 65px;
+padding: 2px 0;
+border-radius: 5px;
+background-color: rgba(0, 228, 245, 0.993);
+color: white;
+border-color: rgba(0, 228, 245, 0.993);
+margin-right: 30rem;
+box-shadow: none;
+}
+.btn:hover{
+box-shadow: 0 0  5px  red;
+ }
+ 
+
+ /* Main content are started from here  */
+
+#container{
+display: flex;
+flex-wrap: wrap;
+margin:3rem 4rem;
+}
+.section{
+border: 2px solid red;
+padding: 0 2rem;
+margin: 3px;
+width: 100px;
+
+height:150px;
+
+}
+.desc a{
+  padding: 2px;
+  color: white;
+  font-size: 25px;
+  overflow: hidden;
+}
+.desc{
+   background-color: aqua;
+   position: relative;
+   top: 25%;
+}
+#footer{
+
+background-color: black;
+position:relative;
+bottom: 0;
+height: 8em;
+width: 100vw;
+color: antiquewhite;
+overflow: hidden;
+}
+.fcontainer{
+    display: flex;
+   color: darksalmon;
+   
+}
+.fcontainer h2{
+    text-decoration: underline;
+    font-size: 15px;
+    color: chocolate;
+}
+.fl{
+margin: 5px 200px;   
+display: flex;
+flex-direction: column;
+
+
+}
+#f2{
+
+    align-items: left;
+}
+#bbtn{background-color:  #2196f3;
+  
+    transition: 1s;
+}
+#bbtn:hover {
+      
+      box-shadow: 0 0 10px#2196f3,0 0 40px #2196f3,0 0 80px #2196f3  ;
+       }
+
+
+    /* this is headbook css  */
+
+    #headin{
+        width: 50%;
+        margin: auto;
+        background-color: red;
+        color: white;
+        text-align: center;
+        margin : 5px auto;
+
+    
+}
+
+    
+

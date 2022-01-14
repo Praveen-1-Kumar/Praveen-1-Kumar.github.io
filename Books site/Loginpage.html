@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="Page2.css">
+    <script src="Register.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <form id="form" action="Php Files/Register.php" method="POST" >
+            <h2 id="h"> Registration Form</h2>
+            <label class="label_Design"> Name </label>
+            <input type="text " name="Name" id="Name" class="Text_Area_Design" placeholder="Type Name Here">
+            <br>
+            <label class="label_Design" >Father's Name</label>
+            <input type="text " name="Fname" id="Father's name" class="Text_Area_Design"
+                placeholder="Type Father's name here">
+            <br>
+            <label  class="label_Design"> Mother's name </label>
+            <input type="text " name="Mname" id="Mother's name" class="Text_Area_Design"
+                placeholder="Type Mother's name here">
+            <br>
+            <label  class="label_Design"> Age </label> 
+            <input type="text" name="Age" id="Age" class="Text_Area_Design">
+            <br>
+            <div class="label_Design">
+                <label for="Gender">Gender </label>
+                <input type="radio" name="Gender" id="Gender1">
+                <span id="Gender_span1">Male</span>
+                <input type="radio" name="Gender" id="Gender2">
+                <span id="Gender_span2"> Female</span><br>
+            </div>
+            <label  class="label_Design"> Email </label>
+            <input type="email" name="Email" id="email" class="Text_Area_Design"><br>
+            <label  class="label_Design"> Password</label><input type="text" name="Password" id="password" class="Text_Area_Design"><br>
+            <label  class="label_Design"> Re_Enter_Password</label><input type="password" name="Password2" id="password2" class="Text_Area_Design"><br>
+            <input class="btnf" id="subm" type="submit">
+
+        </form>
+    </div>
+
+</body>
+
+
+
+</html>
