@@ -1,0 +1,124 @@
+
+#main-play-body {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    border: 1px solid rgb(139, 135, 135);
+
+
+}
+
+#tittle{
+    margin: 1px 5px;
+    padding: 3px;
+    height: auto;
+   /* border: 2px solid rgba(75, 77, 75, 0.479);  */
+    font-size: 1.5em;
+    font-family:cursive;
+   
+   }
+
+#upper-side iframe{
+       /* border: 5px solid yellow;  */
+    width: 84vw;
+    margin: 1% 6%;
+    border: 2px solid rgba(75, 77, 75, 0.479);
+}
+
+
+
+#lower-side{
+    margin: 1em 1em;
+    border: 2px solid rgba(75, 77, 75, 0.479);
+    width: 88%;
+    height: 10em;
+    padding: 1em 0.8em;
+    border-radius: 10px;
+}
+#comment-body{
+    width: 95%;
+    border:  2px solid black;
+    border-radius: 10px;
+    padding: 1em .5em;
+    margin: 0.2em 1em;
+    height: 7em;
+   overflow: scroll;
+    scroll-behavior: smooth;
+    }
+
+}
+#btn{
+    width: 12%;
+    margin: 10px 44%;
+}
+#upper-side {
+  
+    width: 88vw;
+    margin: auto;
+
+}
+#play {
+   border: 1.5px solid rgb(68, 67, 67);  
+    width:80%;
+    margin-left: 9%;
+
+  }
+#img{
+height: 100%;
+
+
+}
+
+@media screen and (max-width: 500px) {
+body{
+    background-color: rgb(204, 178, 178);
+
+}
+#main-play-body {
+  padding: 0px;
+
+
+}
+
+#upper-side {
+    
+     width: 95vw;
+     margin: auto;
+ 
+ }
+ #play {
+    border: 1.5px solid rgb(68, 67, 67);  
+   width:100%;
+   margin: auto;
+   
+ 
+   }
+   .img-cl-no{
+    position: relative;
+    top: -46%;
+    left: 4%;
+    color: white;
+    font-size: 9px;
+   
+}
+    
+}
+
+.v-desc{
+  margin: 1px 8px;
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(218, 202, 61);
+ text-decoration: underline;
+ text-decoration-color: brown;
+}
+
+/* this code used for classes number on the banner image   */
+
+.img-cl-no{
+    position: relative;
+    top: -46%;
+    left: 4%;
+    color: white;
+  
+ 
+}
