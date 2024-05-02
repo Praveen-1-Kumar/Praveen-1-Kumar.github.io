@@ -1,0 +1,130 @@
+#logo {
+
+    width: 60px;
+ 
+
+}
+
+.flex{
+    display: flex;
+}
+.nav-item {
+
+    margin: 2px 4px;
+   }
+
+.nav-link {
+    margin: 0;
+   
+}
+
+.nav-item:hover {
+    background-color: rgb(236, 233, 233);
+    border-radius: 8px;
+    box-shadow: 5px 2px 2px 2px rgb(212, 212, 212);
+    margin: 2px;
+    border-radius: 10px;
+    height: auto;
+
+
+}
+
+
+
+.Course-container {
+    display: flex;
+    margin: auto;
+    padding: 7px;
+    width: 95vw;
+   
+    overflow-x: hidden;
+    user-select: none;
+    box-shadow:  15px 0px 10px #ffffff;
+}
+.course {
+ 
+ 
+    min-width: 320px;
+    padding: 26px;
+    box-shadow: 7px 7px 9px 3px grey;
+    margin: 15px;
+    user-select: none;
+}
+.course-logo-container {
+   
+    display: flex;
+}
+.course-logo {
+    width: 12em;
+    
+    
+    border-radius: 50%;
+    height: 12em;
+    position: relative;
+    margin: auto;
+ 
+    align-items: center;
+
+
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+    
+	100% { transform: translateX(calc(-250px * 8))}
+}
+.course-scroll {
+    animation: scroll 40s linear infinite ;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.post-container{
+    margin: 2.5vw auto;
+    padding: 7px 5px;
+    flex-direction: column;
+
+
+
+}
+
+
+.tut-post-container{
+
+    align-items: center;
+justify-content: center;  
+
+}
+.tut-post-heading{
+    
+    margin: 5px auto;
+      
+}
+.tut-post-heading h1 {
+     font-size:5em;   
+    
+}
+.tut-png-container{
+
+    width: 95vw;
+    overflow: hidden;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+   
+}
+.tut-png-sub-container{
+    width: fit-content;
+    margin: auto;
+}
+.png {
+   
+    margin: 0.5vw;
+    padding: 5px;
+}
+.png img{
+
+  
+    width: 20vw;
+    padding: 5px;
+}
